@@ -1,0 +1,5 @@
+#Write a Program to find C.P. of any Product  where selling price is given and profit margin is 20 %.
+
+sp=int(input("enter the selling price = "))
+cp=(5/6)*sp
+print(f"The cost price = {cp}")
