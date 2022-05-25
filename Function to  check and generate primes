@@ -1,0 +1,19 @@
+#WAP to generate the prime numbers.
+num=int(input("ENter the number of prime numbers you want = "))
+x=1
+n=2
+c=0
+while True:
+    for i in range(2,n):
+            if(n%i==0):
+                x=0
+                break
+            else:
+                x=1
+    if(x == 1):
+        print(n)
+        c+=1
+    n+=1
+    if(c>=num):
+        break
+       
