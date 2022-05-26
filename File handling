@@ -1,0 +1,13 @@
+#WAP a python program which has some commnet liness also using # in the start of any line. Then copy the contents of this file into another file which contains the actual code by excluding the comment lines.
+with open("a.txt",'w+') as f:
+    f.write("""#This is the code to add two numbers
+a=4
+b=5
+c=a+b
+print(c)""")
+    f.seek(0,0)
+    a=f.readlines()
+    with open("b.txt",'w') as p:
+        for i in a[1::]:
+            p.write(i)
+            
