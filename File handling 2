@@ -1,0 +1,11 @@
+with open("a.txt",'w+') as f:
+    f.write("GLA is the best engineering University. I am studying in GLA .")
+    f.seek(0,0)
+    a=f.read().split()
+    c=0
+    for i in a:
+        if(i == "GLA"):
+            c+=1
+    print("Number of times GLA is occuring = ",c)
+            
+        
