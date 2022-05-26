@@ -1,0 +1,11 @@
+with open("a.txt",'w+') as f:
+    f.write("GLA is the best engineering University. \nI am studying in GLA .\nThank you babu")
+    f.seek(0,0)
+    l=[]
+    for i in f:
+        a=len(i)
+        l.append(a)
+    f.seek(0,0)
+    for i in f:
+        if(len(i)==min(l)):
+            print("The shortest line present in the file is \n",i)
