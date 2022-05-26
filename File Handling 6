@@ -1,0 +1,6 @@
+#WAP to read a file which converts the entire context  of file into uppercase .
+with open("ab.txt",'w+') as f:
+    f.write("I have to convert this line into upper case ")
+    f.seek(0,0)
+    a=f.read().upper()
+    print(a)
