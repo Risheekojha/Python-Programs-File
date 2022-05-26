@@ -1,0 +1,7 @@
+from numpy import *
+a=zeros(5,dtype = int)
+print(a)
+b=ones(10,float)
+print(b)
+c=ones(10,complex)
+print(c)
