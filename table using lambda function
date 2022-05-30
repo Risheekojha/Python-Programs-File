@@ -1,0 +1,10 @@
+a=int(input("Enter the number = "))
+l=[]
+for i in range(1,11):
+    l.append(i)
+b=list(map(lambda x:x*a,l))
+print(b)
+b=[str(b) for b in b]
+
+a="\n".join(b)
+print(a)
