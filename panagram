@@ -1,0 +1,15 @@
+#panagram
+def ispanagram(s):
+    count=0
+    for i in s:
+        if i in "abcdefghijklmnopqrstuvwxyz":
+            count+=1
+        else:
+            print("Not Panagram")
+            break
+    if(count>=26):
+            print("Yes it is a pangram")
+    else:
+        print("Not panagram")
+s=input("ENter the string = ")
+ispanagram(s)
