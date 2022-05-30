@@ -1,0 +1,14 @@
+a=int(input("Enter a number = "))
+b=a*a
+l=len(str(b))
+sum=0
+i=0
+while(i<l):
+    p=b%10
+    sum=sum+p
+    b=b//10
+    i=i+1
+if a==sum:
+    print("neon number")
+else:
+    print("not neon number")
