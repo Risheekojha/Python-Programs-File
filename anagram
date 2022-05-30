@@ -1,0 +1,14 @@
+def isanagram(s1,s2):
+    if(len(s1)==len(s2)):
+        for i in s1:
+            if(i in s2):
+                y=1
+            else:
+                y=0
+        if(y==1):
+            print("anagram")
+    else:
+        print("Not Angram")
+a=input("Enter the string = ")
+b=input('Enter the second string to check = ')
+isanagram(a,b)
