@@ -1,0 +1,4 @@
+dict=eval(input())
+s=sum(dict.keys())
+y=sum(dict.values())
+print(s,y)
