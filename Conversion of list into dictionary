@@ -1,0 +1,7 @@
+#Conversion of list into Dictionary
+countries=["USA","INDIA","GERMANY","FRANCE"]
+cities=['Washington','New Delhi','Berlin','Paris']
+#make a dictionary
+z=zip(countries,cities)
+d=dict(z)
+print(d)
