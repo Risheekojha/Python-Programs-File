@@ -1,0 +1,6 @@
+num=(1,2,3,4,5)
+pos=int(input("Enter the position to be deleted = "))
+x=num[0:pos-1]
+x+=num[pos:]
+print(x)
+
