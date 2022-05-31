@@ -1,0 +1,7 @@
+x={}
+num=int(input('Enter the number of key value pair = '))
+for i in range(num):
+        key=input("Enter the key = ")
+        value=int(input('Enter th value = '))
+        x.update({key:value})
+print(x)
