@@ -1,0 +1,7 @@
+n=('sun','moon','venus','mars','jupiter')
+x=tuple([input('Enter the planet name = ')])
+pos=int(input("ENter the position = "))
+x=n[0:pos-1]+x
+x+=n[pos-1:]
+n=x
+print(n)
