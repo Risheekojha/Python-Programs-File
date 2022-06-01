@@ -1,0 +1,4 @@
+from numpy import *
+a=matrix(arange(1,10).reshape(3,3))
+b=matrix(arange(1,10).reshape(3,3))
+print(a*b)
