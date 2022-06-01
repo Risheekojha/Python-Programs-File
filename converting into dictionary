@@ -1,0 +1,12 @@
+str="radhe=23,krishna=45"
+x=str.split(',')
+print(x)
+l=[]
+for i in x:
+    y=i.split('=')
+    l.append(y)
+a=dict(l)
+dic1={}
+for i,j in a.items():
+    dic1[i]=int(j)
+print(dic1)
