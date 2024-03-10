@@ -10,3 +10,4 @@ def myCapitialize(s):
 
 st=input("Enter a string: ")
 myCapitialize(st)
+d
